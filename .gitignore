@@ -1,0 +1,21 @@
+# Ignore sensitive config files
+/config/config.php
+/database/db_connection.php
+
+# Ignore uploads but keep folder
+/uploads/*
+!/uploads/.gitkeep
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Environment files
+.env
